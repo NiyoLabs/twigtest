@@ -1,0 +1,11 @@
+/*
+ Theme Name:     Twigtest Child Theme
+ Theme URI:      http://twigtest.com
+ Description:    Twigtest
+ Author:         Twigtest
+ Author URI:     http://twigtest.com
+ Template:       twentyfifteen
+ Version:        1.0.0
+*/
+
+@import url("../twentyfifteen/style.css");
