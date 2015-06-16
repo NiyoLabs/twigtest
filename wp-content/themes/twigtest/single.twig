@@ -9,6 +9,19 @@
 
 	
 	<footer class="entry-footer">
-		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://twigtest.niyolabs.com/post/{{post.id}}" rel="bookmark"><time class="entry-date published" datetime="2015-06-02T21:34:00+00:00">June 2, 2015</time><time class="updated" datetime="2015-06-02T21:45:51+00:00">June 2, 2015</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="http://twigtest.niyolabs.com/post/author/{{post.author.username}}">{{post.author.username}}</a></span></span>			</footer><!-- .entry-footer -->
+		<span class="posted-on">
+			<span class="screen-reader-text">Posted on </span>
+			<a href="/post/{{post.id}}" rel="bookmark">
+				<time class="entry-date published" datetime="{{post.date}}">{{post.date}}</time>
+				<time class="updated" datetime="{{post.modified}}">{{post.modified}}</time>
+			</a>
+		</span>
+		<span class="byline">
+			<span class="author vcard">
+				<span class="screen-reader-text">Author </span>
+				<a class="url fn n" href="/posts/author/{{post.author.username}}">{{post.author.username}}</a>
+			</span>
+		</span>
+	</footer><!-- .entry-footer -->
 
 </article>

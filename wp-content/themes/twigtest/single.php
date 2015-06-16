@@ -23,4 +23,10 @@ get_header(); ?>
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
 
+<script type="text/javascript">
+var tplDir = "<?php echo get_stylesheet_directory_uri(); ?>";
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twig.js/0.6.0/twig.min.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri() . '/js/single.js'; ?>"></script>
+
 <?php get_footer(); ?>
